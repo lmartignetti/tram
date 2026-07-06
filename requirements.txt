@@ -1,0 +1,28 @@
+# General management and parsing
+cmake
+nlohmann-json3-dev
+jq
+
+# Python
+python3
+python3-pip
+
+# Plotting
+python3-pandas
+gnuplot
+
+# Network
+net-tools
+perftest
+
+# RDMA
+libibverbs-dev 
+ibverbs-utils 
+librdmacm-dev
+rdmacm-utils
+
+# NUMA
+numactl
+
+# Profiling
+valgrind

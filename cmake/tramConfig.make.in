@@ -1,0 +1,11 @@
+set(TRAM_INCLUDE_DIR "@TRAM_INCLUDE_DIR@")
+set(TRAM_LIBRARY "@TRAM_LIBRARY@")
+set(TRAM_VERSION "@TRAM_VERSION@")
+
+if(TRAM_VERSION VERSION_LESS "1.0.0")
+  message(WARNING "tram version is too old!")
+endif()
+
+include_directories(${TRAM_INCLUDE_DIR})
+
+set(TRAM_LIBRARIES "${TRAM_LIBRARY} -lrdmacm -libverbs")

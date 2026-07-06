@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+.DS_Store
+
+cl_manifest.xml
+
+.vscode/
+
+logs/
+build/
+
+plotting/scripts/
+plotting/src/
+data/
+plots/
