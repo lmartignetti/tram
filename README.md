@@ -20,7 +20,3 @@ After the tests have been run, the generated data can be collected into the `dat
 python3 ./plotting/collect.py
 python3 ./plotting/plot.py
 ```
-
-## Contacts
-
-For any question or comment, you can contact: `martilo@usi.ch`
